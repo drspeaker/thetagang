@@ -19,7 +19,7 @@ pytimeparse = "^1.1.8"
 schema = "^0.7.5"
 toml = "^0.10.2"
 rich = "^13.3.5"
-more-itertools = "^9.1.0"
+more-itertools = ">=9.1,<11.0"
 
 [tool.poetry.group.dev.dependencies]
 autoflake = "^2.0"
@@ -29,7 +29,7 @@ autohooks-plugin-isort = ">=22.8,<24.0"
 autohooks-plugin-pylint = ">=22.8.1,<24.0.0"
 black = "^23.1.0"
 isort = "^5.12.0"
-pylint = "^2.16.2"
+pylint = ">=2.16.2,<4.0.0"
 pytest = "^7.2.1"
 
 [tool.poetry.urls]
